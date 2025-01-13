@@ -12,7 +12,7 @@ body{
 
 h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
@@ -28,9 +28,9 @@ h2{
 }
 
 #password{
-    width: 100%;
+    width: 90%;
     padding: 0.8rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: none;
     border-radius: 8px;
     background: rgba(255, 255,255,0.8);
@@ -47,6 +47,7 @@ h2{
 
 .button-box{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     gap: 10px;
 }
@@ -109,5 +110,51 @@ button:active{
     }
     100%{
         transform: translateX(100%);
+    }
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+
+    #password {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    .running-line span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    #password {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+
+    .running-line span {
+        font-size: 0.8rem;
     }
 }
