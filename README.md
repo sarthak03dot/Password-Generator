@@ -3,7 +3,7 @@
 This project is a simple and stylish password generator web application with interactive features.
 
 ## See Demo
-* :https://sarthak03dot.github.io/Password-Generator/
+* https://sarthak03dot.github.io/Password-Generator/
 
 ### Features
 
